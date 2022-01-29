@@ -2,3 +2,51 @@
     margin:0rem;
     padding: 0rem;
 }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Light-gray);
+    
+}
+:root{
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+
+
+.QR-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: center;   
+    width: 310px;
+    height: 499px;
+    background-color:var(--White);
+    border : 1px solid var(--White);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5rem;
+    padding:0.5rem;
+    
+}
+.QR-image{
+    width: 286px;
+    height: 284px;    
+    align-self: center;
+    margin-top: 1rem;
+    border: 1px solid --White;
+    border-radius: 10px;
+}
+.text1{
+    margin: 2rem;
+    flex-direction: row;   
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;  
+    color:var(--Dark-blue);
+       
+}
