@@ -23,8 +23,8 @@ body{
     flex-flow: column wrap;
     justify-content: start;
     align-items: center;   
-    width: 310px;
-    height: 499px;
+    width: 317px;
+    height: 495px;
     background-color:var(--White);
     border : 1px solid var(--White);
     border-radius: 10px;
