@@ -20,12 +20,12 @@ body{
     width: 317px;
     height: 495px;
     background-color:var(--White);
-    border : 1px solid var(--White);
-    border-radius: 10px;
+    /* border : 1px solid var(--White); */
+    border-radius: 15px;
     margin: auto;
     margin-top: 8rem;
     margin-bottom: 8rem;
-    box-shadow: .5px .5px .5px  var(--Grayish-blue),.5px 0.5px .5px var(--Grayish-blue),.5px .5px .5px  var(--Grayish-blue) ;
+    /* box-shadow: .5px .5px .5px  var(--Grayish-blue),.5px 0.5px .5px var(--Grayish-blue),.5px .5px .5px  var(--Grayish-blue) ; */
 }
 .QR__image{   
     width: 284px;
@@ -37,22 +37,23 @@ body{
     margin-bottom: 1rem;
 }
 .QR__text-1{
-    width: 65%;    
-    font-size: 1rem;
+    /* width: 65%;     */
+    font-size: 1.2rem;
     font-weight: 700;  
     color:var(--Dark-blue); 
     margin: auto;
     margin-top: 1rem;    
     text-align: center;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
+    padding: 0 1.2rem; 
             
 } 
 .QR__text-2{    
-    width:65%;
     text-align: center;
     font-size: 0.9rem;
     font-weight: 400;  
     color:var(--Grayish-blue);
     margin: auto;
     margin-top: 0.5rem;
+    padding: 0 1.5rem;
 } 
