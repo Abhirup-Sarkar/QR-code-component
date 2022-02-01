@@ -6,6 +6,10 @@
 body{
     font-family: 'Outfit', sans-serif;
     background-color: var(--Light-gray);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 :root{
@@ -20,12 +24,7 @@ body{
     width: 317px;
     height: 495px;
     background-color:var(--White);
-    /* border : 1px solid var(--White); */
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-    /* box-shadow: .5px .5px .5px  var(--Grayish-blue),.5px 0.5px .5px var(--Grayish-blue),.5px .5px .5px  var(--Grayish-blue) ; */
+    border-radius: 15px;    
 }
 .QR__image{   
     width: 284px;
