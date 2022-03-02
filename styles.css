@@ -5,11 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 body{
     font-family: 'Outfit', sans-serif;
-    background-color: var(--Light-gray);
-    min-height: 100vh;
+    background-color: var(--Light-gray);    
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     
 }
 :root{
